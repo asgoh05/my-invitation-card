@@ -1,0 +1,56 @@
+.main_page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-mint);
+  background-image: radial-gradient(
+      var(--color-orange) 1.1500000000000001px,
+      transparent 1.1500000000000001px
+    ),
+    radial-gradient(#faab78 1.1500000000000001px, #e8f3d6 1.1500000000000001px);
+  background-size: 46px 46px;
+  background-position: 0 0, 23px 23px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.image_frame {
+  margin-bottom: 1rem;
+}
+
+.main_image {
+  width: 25vh;
+}
+
+.info {
+  text-align: center;
+  font-family: "Shining_star";
+  font-size: 1.2rem;
+}
+
+.datetime {
+  margin-bottom: 0;
+}
+
+.location {
+  margin-top: 0;
+}
+
+.mapbutton {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: "KyoboHandwriting2021sjy";
+  font-size: 1rem;
+  opacity: 0.6;
+  vertical-align: top;
+}
+
+.icon {
+  font-size: 1rem;
+}
