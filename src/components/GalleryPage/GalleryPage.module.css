@@ -1,0 +1,33 @@
+.gallery_page {
+  font-family: "Shining_star";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--color-mint);
+  opacity: 1;
+  background-image: linear-gradient(
+      135deg,
+      var(--color-orange) 25%,
+      transparent 25%
+    ),
+    linear-gradient(225deg, var(--color-orange) 25%, transparent 25%),
+    linear-gradient(45deg, var(--color-orange) 25%, transparent 25%),
+    linear-gradient(315deg, var(--color-orange) 25%, var(--color-mint) 25%);
+  background-position: 6px 0, 6px 0, 0 0, 0 0;
+  background-size: 12px 12px;
+  background-repeat: repeat;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 4rem;
+  letter-spacing: 1rem;
+}
+
+.image_frame {
+  height: 50vh;
+  width: 95vw;
+  background-color: transparent;
+}
