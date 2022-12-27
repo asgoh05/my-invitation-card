@@ -5,6 +5,7 @@
   justify-content: center;
   align-content: center;
   text-align: center;
+  margin-top: 10rem;
 }
 .title {
   letter-spacing: 1rem;
@@ -12,12 +13,11 @@
 
 .messagebox {
   align-self: center;
-  border-radius: 50%;
   padding: 1rem;
 }
 
 .message {
-  width: 50vw;
+  width: 70vw;
   font-size: 1.3rem;
   line-height: 3rem;
 }
@@ -34,7 +34,7 @@
 .family {
   font-family: "NanumBarunpen";
   font-size: 1.4rem;
-  width: 50vw;
+  width: 70vw;
   display: flex;
   flex-direction: column;
   align-self: center;
@@ -55,7 +55,7 @@
 
 .parents_name {
   background-color: var(--color-mint);
-  padding: 0.5rem;
+  padding: 0.4rem;
   color: var(--color-text);
   font-weight: bold;
 }
