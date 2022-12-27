@@ -9,15 +9,13 @@ export default function GalleryPage() {
       <h1 className={style.title} data-aos="fade-up" ata-aos-duration="3000">
         갤러리
       </h1>
-      <div
-        className={style.image_frame}
-        data-aos="fade-up"
-        ata-aos-duration="3000"
-      >
+      <div className={style.image_frame}>
         <ResponsiveMasonry columnsCountBreakPoints={{ 350: 3, 750: 4, 900: 5 }}>
           <Masonry>
             {images.map((image, i) => (
               <img
+                data-aos="fade-up"
+                ata-aos-duration="3000"
                 key={i}
                 src={image}
                 onClick={popUpImage}
