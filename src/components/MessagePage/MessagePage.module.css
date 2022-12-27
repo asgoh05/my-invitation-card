@@ -1,0 +1,74 @@
+.message_page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  background-color: var(--color-mint);
+  opacity: 1;
+  background: repeating-linear-gradient(
+    45deg,
+    var(--color-orange),
+    var(--color-orange) 2px,
+    var(--color-mint) 2px,
+    var(--color-mint) 10px
+  );
+}
+.title {
+  letter-spacing: 1rem;
+}
+
+.messagebox {
+  align-self: center;
+  background-color: var(--color-mint);
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+.message {
+  width: 50vw;
+  font-size: 1.3rem;
+  line-height: 3rem;
+}
+
+.name {
+  font-family: "NanumBarunpen";
+  width: auto;
+  padding: 0.5rem 3rem;
+  align-self: center;
+  margin-top: 4rem;
+  color: white;
+  box-sizing: border-box;
+  background-color: var(--color-highlight-text);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.parents {
+  font-family: "NanumBarunpen";
+  font-size: 1.4rem;
+  width: 50vw;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  background-color: var(--color-mint);
+}
+
+.parents_name {
+  background-color: var(--color-mint);
+  padding: 0.5rem;
+  color: var(--color-text);
+  font-weight: bold;
+}
+
+.role {
+  font-size: 1rem;
+  padding-right: 1rem;
+}

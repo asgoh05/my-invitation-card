@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* imported from https://www.magicpattern.design/tools/css-backgrounds */
   background-color: var(--color-mint);
   background-image: radial-gradient(
       var(--color-orange) 1.1500000000000001px,

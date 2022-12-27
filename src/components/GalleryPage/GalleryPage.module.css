@@ -1,23 +1,18 @@
 .gallery_page {
-  font-family: "NanumBarunpen";
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  /* imported from https://www.magicpattern.design/tools/css-backgrounds */
   height: 100vh;
-  background-color: var(--color-mint);
+  background-color: #fcf9be;
   opacity: 1;
-  background-image: linear-gradient(
-      135deg,
-      var(--color-orange) 25%,
-      transparent 25%
+  background-image: repeating-radial-gradient(
+      circle at 0 0,
+      transparent 0,
+      #fcf9be 4px
     ),
-    linear-gradient(225deg, var(--color-orange) 25%, transparent 25%),
-    linear-gradient(45deg, var(--color-orange) 25%, transparent 25%),
-    linear-gradient(315deg, var(--color-orange) 25%, var(--color-mint) 25%);
-  background-position: 6px 0, 6px 0, 0 0, 0 0;
-  background-size: 12px 12px;
-  background-repeat: repeat;
+    repeating-linear-gradient(#faab7855, #faab78);
 }
 
 .title {
