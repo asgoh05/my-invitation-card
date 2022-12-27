@@ -7,8 +7,8 @@
 }
 
 @font-face {
-  font-family: "Shining_star";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_10@1.0/Shining_star.woff")
+  font-family: "NanumBarunpen";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumBarunpen.woff")
     format("woff");
   font-weight: normal;
   font-style: normal;
@@ -20,6 +20,7 @@
   --color-light-orange: #ffdca9;
   --color-orange: #faab78;
   --color-text: rgb(67, 67, 67);
+  --color-highlight-text: #ff7316;
 }
 
 body {

@@ -9,9 +9,17 @@
       var(--color-orange) 1.1500000000000001px,
       transparent 1.1500000000000001px
     ),
-    radial-gradient(#faab78 1.1500000000000001px, #e8f3d6 1.1500000000000001px);
+    radial-gradient(
+      var(--color-orange) 1.1500000000000001px,
+      var(--color-mint) 1.1500000000000001px
+    );
   background-size: 46px 46px;
   background-position: 0 0, 23px 23px;
+}
+
+.name_highlight {
+  font-size: larger;
+  color: var(--color-highlight-text);
 }
 
 .header {
@@ -29,8 +37,8 @@
 
 .info {
   text-align: center;
-  font-family: "Shining_star";
-  font-size: 1.2rem;
+  font-family: "NanumBarunpen";
+  font-size: 0.8rem;
 }
 
 .datetime {
@@ -39,6 +47,7 @@
 
 .location {
   margin-top: 0;
+  margin-bottom: 0.5rem;
 }
 
 .mapbutton {
