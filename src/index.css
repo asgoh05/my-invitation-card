@@ -30,6 +30,18 @@ body {
     "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* imported from https://www.magicpattern.design/tools/css-backgrounds */
+  background-color: var(--color-mint);
+  background-image: radial-gradient(
+      var(--color-orange) 1.1500000000000001px,
+      transparent 1.1500000000000001px
+    ),
+    radial-gradient(
+      var(--color-orange) 1.1500000000000001px,
+      var(--color-mint) 1.1500000000000001px
+    );
+  background-size: 46px 46px;
+  background-position: 0 0, 23px 23px;
 }
 
 code {
