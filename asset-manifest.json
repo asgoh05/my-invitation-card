@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/my-invitation-card/static/css/main.bc070f65.css",
-    "main.js": "/my-invitation-card/static/js/main.46037ec9.js",
+    "main.js": "/my-invitation-card/static/js/main.cb0a406f.js",
     "static/js/787.fcf144b3.chunk.js": "/my-invitation-card/static/js/787.fcf144b3.chunk.js",
     "static/media/oww_main_image.png": "/my-invitation-card/static/media/oww_main_image.3761c8a697470ff1a75f.png",
     "index.html": "/my-invitation-card/index.html",
     "main.bc070f65.css.map": "/my-invitation-card/static/css/main.bc070f65.css.map",
-    "main.46037ec9.js.map": "/my-invitation-card/static/js/main.46037ec9.js.map",
+    "main.cb0a406f.js.map": "/my-invitation-card/static/js/main.cb0a406f.js.map",
     "787.fcf144b3.chunk.js.map": "/my-invitation-card/static/js/787.fcf144b3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc070f65.css",
-    "static/js/main.46037ec9.js"
+    "static/js/main.cb0a406f.js"
   ]
 }
