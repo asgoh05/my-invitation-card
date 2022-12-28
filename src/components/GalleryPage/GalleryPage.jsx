@@ -20,9 +20,9 @@ export default function GalleryPage() {
                 src={image}
                 onClick={popUpImage}
                 style={{
-                  width: "100%",
+                  width: "99%",
                   display: "block",
-                  border: "2px solid var(--color-mint)",
+                  border: "1px solid var(--color-mint)",
                 }}
                 alt=""
               />
