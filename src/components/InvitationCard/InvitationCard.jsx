@@ -3,11 +3,11 @@ import MainPage from "../MainPage/MainPage";
 import GalleryPage from "../GalleryPage/GalleryPage";
 import MessagePage from "../MessagePage/MessagePage";
 
-export default function InvitationCard() {
+export default function InvitationCard({ images }) {
   return (
     <>
       <MainPage />
-      <GalleryPage />
+      <GalleryPage images={images} />
       <MessagePage />
     </>
   );
