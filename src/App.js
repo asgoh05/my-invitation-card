@@ -1,10 +1,9 @@
 import "./App.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import GalleryPage from "./components/GalleryPage/GalleryPage";
-import MainPage from "./components/MainPage/MainPage";
-import MessagePage from "./components/MessagePage/MessagePage";
 import React, { useEffect } from "react";
+import { RouterProvider } from "react-router";
+import router from "./router/router";
 
 function App() {
   useEffect(() => {
@@ -12,9 +11,7 @@ function App() {
   });
   return (
     <div className="App">
-      <MainPage />
-      <GalleryPage />
-      <MessagePage />
+      <RouterProvider router={router} />
     </div>
   );
 }
