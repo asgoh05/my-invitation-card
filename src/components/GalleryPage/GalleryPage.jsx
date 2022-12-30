@@ -4,7 +4,7 @@ import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 export default function GalleryPage({ images }) {
   const popUpImage = (idx) => {
-    window.location.href = `/#/my-invitation-card/gallery/${idx}`;
+    window.location.href = `/my-invitation-card/gallery/${idx}`;
   };
   return (
     <div className={style.gallery_page}>

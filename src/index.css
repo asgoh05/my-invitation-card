@@ -14,6 +14,10 @@
   font-style: normal;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 :root {
   --color-mint: #e8f3d6;
   --color-yellow: #fcf9be;
