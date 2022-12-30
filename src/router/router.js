@@ -1,4 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
+import ErrorPage from "../components/ErrorPage/ErrorPage";
 import Gallery from "../components/Gallery/Gallery";
 import InvitationCard from "../components/InvitationCard/InvitationCard";
 
@@ -18,16 +19,20 @@ const images = [
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/my-invitation-card",
     element: <InvitationCard images={images} />,
   },
   {
-    path: "/gallery/:initvalue",
+    path: "/my-invitation-card/gallery/:initvalue",
     element: <Gallery images={images} />,
   },
   {
-    path: "/gallery",
+    path: "/my-invitation-card/gallery",
     element: <Gallery images={images} />,
+  },
+  {
+    path: "*",
+    element: <ErrorPage />,
   },
 ]);
 
