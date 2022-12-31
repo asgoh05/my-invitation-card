@@ -1,10 +1,15 @@
 import React from "react";
 import style from "./GalleryPage.module.css";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
+import { useNavigate } from "react-router-dom";
 
 export default function GalleryPage({ images }) {
+  const navigate = useNavigate();
   const popUpImage = (idx) => {
-    window.location.href = `/#/gallery/${idx}`;
+    console.log("navigate");
+    const href = navigate(`/gallery/${idx}`);
+    console.log(href);
+    window.location.href = href;
   };
   return (
     <div className={style.gallery_page}>

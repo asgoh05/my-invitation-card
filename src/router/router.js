@@ -17,23 +17,28 @@ const images = [
   "https://phx02pap002files.storage.live.com/y4mc5T--tmVyXQgU-QAxRVxERTZIWk_j6t_vmDLePpLUYt1ZHr4VCIlBtTtZ-Pf_UzYL1x7kZzzHRM9Bxorge7b-kDqqs2XMiwQoNhMwrzGQsnol40qklft9l2-igwStDMUWFG-9noUEMbEZ94ekVFW3M56TiNDWpYdUYfdQy_7jsPCREVykjpjWClrG8V07_fA?width=683&height=1024&cropmode=none",
 ];
 
-const router = createHashRouter([
+const router = createHashRouter(
+  [
+    {
+      path: "/",
+      element: <InvitationCard images={images} />,
+    },
+    {
+      path: "/gallery/:initvalue",
+      element: <Gallery images={images} />,
+    },
+    {
+      path: "/gallery",
+      element: <Gallery images={images} />,
+    },
+    {
+      path: "*",
+      element: <ErrorPage />,
+    },
+  ],
   {
-    path: "/",
-    element: <InvitationCard images={images} />,
-  },
-  {
-    path: "/gallery/:initvalue",
-    element: <Gallery images={images} />,
-  },
-  {
-    path: "/gallery",
-    element: <Gallery images={images} />,
-  },
-  {
-    path: "*",
-    element: <ErrorPage />,
-  },
-]);
+    basename: "/my-invitation-card/",
+  }
+);
 
 export default router;
