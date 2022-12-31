@@ -7,7 +7,12 @@
   width: 100vw;
 }
 
-h1 {
+.title {
+  font-family: "KyoboHandwriting2021sjy";
+  margin-bottom: 4rem;
+  letter-spacing: 1rem;
+  font-size: 2rem;
+  color: var(--color-text);
   margin-bottom: 5rem;
 }
 

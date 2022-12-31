@@ -9,7 +9,9 @@
 }
 .title {
   font-family: "KyoboHandwriting2021sjy";
+  font-size: 2rem;
   letter-spacing: 1rem;
+  color: var(--color-text);
 }
 
 .messagebox {

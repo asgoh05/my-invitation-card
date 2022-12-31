@@ -6,8 +6,8 @@ import kakaomap_icon from "../../images/kakaomap_icon.png";
 export default function MapPage() {
   return (
     <div className={style.container}>
-      <h1 data-aos="fade-up" ata-aos-duration="3000">
-        오시는 길
+      <h1 data-aos="fade-up" ata-aos-duration="3000" className={style.title}>
+        | 오시는 길 |
       </h1>
       <embed
         className={style.map}

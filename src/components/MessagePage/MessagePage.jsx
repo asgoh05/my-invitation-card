@@ -5,7 +5,7 @@ export default function MessagePage() {
   return (
     <div className={style.message_page}>
       <h1 className={style.title} data-aos="fade-up" ata-aos-duration="3000">
-        초대합니다
+        | 초대합니다 |
       </h1>
       <div
         className={style.messagebox}
