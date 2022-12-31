@@ -5,11 +5,7 @@ export default function MessagePage() {
   return (
     <div className={style.message_page}>
       <h1 className={style.title} data-aos="fade-up" ata-aos-duration="3000">
-<<<<<<< HEAD
         | 초대합니다 |
-=======
-        초대합니다
->>>>>>> parent of d4ab3f7 (Updates)
       </h1>
       <div
         className={style.messagebox}

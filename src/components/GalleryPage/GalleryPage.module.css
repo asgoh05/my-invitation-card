@@ -8,11 +8,17 @@
 .title {
   font-family: "KyoboHandwriting2021sjy";
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin-bottom: 4rem;
   letter-spacing: 1rem;
   font-size: 2rem;
 
   color: var(--color-text);
+=======
+  font-size: 2rem;
+  margin-bottom: 4rem;
+  letter-spacing: 1rem;
+>>>>>>> parent of d4ab3f7 (Updates)
 =======
   font-size: 2rem;
   margin-bottom: 4rem;

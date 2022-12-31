@@ -9,13 +9,9 @@
 }
 .title {
   font-family: "KyoboHandwriting2021sjy";
-<<<<<<< HEAD
   font-size: 2rem;
   letter-spacing: 1rem;
   color: var(--color-text);
-=======
-  letter-spacing: 1rem;
->>>>>>> parent of d4ab3f7 (Updates)
 }
 
 .messagebox {
