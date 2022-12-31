@@ -1,4 +1,4 @@
-import { createHashRouter } from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 import ErrorPage from "../components/ErrorPage/ErrorPage";
 import Gallery from "../components/Gallery/Gallery";
 import InvitationCard from "../components/InvitationCard/InvitationCard";
@@ -17,7 +17,7 @@ const images = [
   "https://phx02pap002files.storage.live.com/y4mc5T--tmVyXQgU-QAxRVxERTZIWk_j6t_vmDLePpLUYt1ZHr4VCIlBtTtZ-Pf_UzYL1x7kZzzHRM9Bxorge7b-kDqqs2XMiwQoNhMwrzGQsnol40qklft9l2-igwStDMUWFG-9noUEMbEZ94ekVFW3M56TiNDWpYdUYfdQy_7jsPCREVykjpjWClrG8V07_fA?width=683&height=1024&cropmode=none",
 ];
 
-const router = createHashRouter(
+const router = createBrowserRouter(
   [
     {
       path: "/",

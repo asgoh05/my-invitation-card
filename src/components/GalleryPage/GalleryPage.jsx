@@ -6,10 +6,7 @@ import { useNavigate } from "react-router-dom";
 export default function GalleryPage({ images }) {
   const navigate = useNavigate();
   const popUpImage = (idx) => {
-    console.log("navigate");
-    const href = navigate(`/gallery/${idx}`);
-    console.log(href);
-    window.location.href = href;
+    navigate(`/gallery/${idx ? idx : 0}`);
   };
   return (
     <div className={style.gallery_page}>

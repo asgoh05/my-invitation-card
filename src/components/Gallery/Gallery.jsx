@@ -5,9 +5,8 @@ import { useSwipeable } from "react-swipeable";
 import { useParams } from "react-router-dom";
 
 export default function Gallery({ images }) {
-  const { initvalue = 0 } = useParams();
-  console.log(`init value = ${initvalue}`);
-  const [index, setIndex] = useState(parseInt(initvalue));
+  const { initvalue } = useParams();
+  const [index, setIndex] = useState(initvalue ? parseInt(initvalue) : 0);
   const showPrevImage = () =>
     setIndex((prev) => {
       if (prev === 0) return images.length - 1;
