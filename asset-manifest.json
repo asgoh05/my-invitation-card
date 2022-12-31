@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/my-invitation-card/static/css/main.62a63f30.css",
-    "main.js": "/my-invitation-card/static/js/main.b293fa2d.js",
+    "main.css": "/my-invitation-card/static/css/main.9afcc7f7.css",
+    "main.js": "/my-invitation-card/static/js/main.36d0a4ba.js",
     "static/js/787.fcf144b3.chunk.js": "/my-invitation-card/static/js/787.fcf144b3.chunk.js",
     "static/media/oww_main_image.png": "/my-invitation-card/static/media/oww_main_image.3761c8a697470ff1a75f.png",
     "index.html": "/my-invitation-card/index.html",
-    "main.62a63f30.css.map": "/my-invitation-card/static/css/main.62a63f30.css.map",
-    "main.b293fa2d.js.map": "/my-invitation-card/static/js/main.b293fa2d.js.map",
+    "main.9afcc7f7.css.map": "/my-invitation-card/static/css/main.9afcc7f7.css.map",
+    "main.36d0a4ba.js.map": "/my-invitation-card/static/js/main.36d0a4ba.js.map",
     "787.fcf144b3.chunk.js.map": "/my-invitation-card/static/js/787.fcf144b3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.62a63f30.css",
-    "static/js/main.b293fa2d.js"
+    "static/css/main.9afcc7f7.css",
+    "static/js/main.36d0a4ba.js"
   ]
 }
