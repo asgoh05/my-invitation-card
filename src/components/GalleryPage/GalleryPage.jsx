@@ -2,7 +2,10 @@ import React from "react";
 import style from "./GalleryPage.module.css";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import { useNavigate } from "react-router-dom";
+<<<<<<< HEAD
 import { AiFillHeart } from "react-icons/ai";
+=======
+>>>>>>> parent of d4ab3f7 (Updates)
 
 export default function GalleryPage({ images }) {
   const navigate = useNavigate();
@@ -12,7 +15,11 @@ export default function GalleryPage({ images }) {
   return (
     <div className={style.gallery_page}>
       <h1 className={style.title} data-aos="fade-up" ata-aos-duration="3000">
+<<<<<<< HEAD
         | 갤러리 |
+=======
+        갤러리
+>>>>>>> parent of d4ab3f7 (Updates)
       </h1>
       <div className={style.image_frame}>
         <ResponsiveMasonry columnsCountBreakPoints={{ 350: 3, 750: 4, 900: 5 }}>

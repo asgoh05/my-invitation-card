@@ -60,6 +60,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+<<<<<<< HEAD
 
 @keyframes animate {
   0% {
@@ -164,3 +165,5 @@ code {
   bottom: -174px;
   animation-delay: 11s;
 }
+=======
+>>>>>>> parent of d4ab3f7 (Updates)
