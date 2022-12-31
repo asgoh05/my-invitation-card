@@ -28,3 +28,10 @@ h1 {
 .address {
   font-size: 1.2rem;
 }
+
+.map {
+  width: 90%;
+  height: 40%;
+  loading: "lazy";
+  referrerpolicy: "no-referrer-when-downgrade";
+}
